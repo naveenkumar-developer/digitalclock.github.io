@@ -1,5 +1,5 @@
 #DIGITAL CLOCK <br>
-It's a digital clock. i added more features in this clock.All features work based on time.Note it's desktop version.<br>
+It's a digital clock. i added more features in this clock.All features work based on time.<br>
 
 ##Featurees likes:<br>
  dynamically changing days.<br>
