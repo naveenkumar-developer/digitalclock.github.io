@@ -32,7 +32,7 @@ A dynamic digital clock built using HTML, CSS, and JavaScript, with several inte
  ## Demo:
  Open the project click [here](https://naveenkumar-developer.github.io/digitalclock.github.io/)
 
-![clock img](clockImg.png)
+
 ---
 
 ##  How it Works 🧪
