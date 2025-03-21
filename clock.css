@@ -5,82 +5,59 @@
 }
 
 body {
-    height: 100vh;
-    width: auto;
-}
-
-
-/* greetings container */
-.msg-container {
+    width: 100%;
+    height: 100dvh;
     display: grid;
     place-content: center;
-    height: 20%;
 }
-
-.message {
-    font-size: 3rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    height: auto;
-    background-color: rgba(17, 138, 57, 0.349);
-    border: 2px solid black transparent;
+.container{
+    width: clamp(18.75rem, -3.571rem + 59.524vw, 50rem);
+    height: 400px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     border-radius: 20px;
+    padding: 10px;
 }
-
-/* Time container */
-#clock {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.msg_container{
     width: 100%;
-    height: 60%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 5rem;
+    border-radius: 5px;
+}
+.msg_container h1{
+    font-size: clamp(2rem, -1.857rem + 7.619vw, 5rem);
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.3px #000;
 }
 
-.box {
-    width: 25%;
-    height: 60%;
-    border: 2px solid black transparent;
-    box-shadow: 2px 2px 2px black;
-    background-color: rgba(233, 233, 207, 0.342);
-    display: grid;
-    place-content: center;
-    margin: 0 2px;
-    border-radius: 20px;
-}
-
-/* Day and Date container */
-.days {
-    font-size: 1.5rem;
-    font-weight: bolder;
-    width: 100%;
-    height: 20%;
+#clock{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: auto;
+    column-gap: 0.3rem;
 }
 
-.day {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 40%;
-    height: 3.125rem;
-    background-color: rgba(34, 87, 122, 0.493);
-    border: 2px solid transparent;
-    border-radius: 20px 0 0 20px;
-    margin-right: 2px;
+#clock .box{
+    width: 100px;
+    height: 100px;
+    font-size: clamp(2rem, -1.857rem + 7.619vw, 5rem);
     display: grid;
     place-content: center;
+    background: #ffffff64;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.3px #000;
 }
 
-.date {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 40%;
-    height: 3.125rem;
-    border: 2px solid transparent;
-    border-radius: 0 20px 20px 0;
-    display: grid;
-    place-content: center;
-    background-color: rgba(88, 129, 87, 0.466);
+.days{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    font-size: clamp(1.3rem, -1.857rem + 7.619vw, 4rem);
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.3px #000;
 }
